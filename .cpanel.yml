@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/fabi6896/public_html/homologacao/unimbe/
+    - /bin/cp -R * "$DEPLOYPATH"
